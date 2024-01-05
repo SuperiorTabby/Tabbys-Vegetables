@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "tabbys-vegetables",
+  "version": "0.0.1+1.20.1",
+  "name": "Tabby's Vegetables",
+  "description": "A mod that adds a few Vegetables to Minecraft",
+  "authors": [
+    "SuperiorTabby"
+  ],
+  "contact": {
+    "sources": "https://github.com/SuperiorTabby/Tabbys-Vegetables"
+  },
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "*",
+
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
