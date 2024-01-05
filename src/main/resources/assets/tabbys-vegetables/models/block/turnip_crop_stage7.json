@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/stem_growth7",
+  "textures": {
+    "stem": "tabbys-vegetables:block/turnip_crop_stage3"
+  }
+}
