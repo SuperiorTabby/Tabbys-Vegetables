@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "tabbys-vegetables",
 	"version": "${version}",
-	"name": "Tabby's-Vegetables",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Tabby's Vegetables",
+	"description": "A mod that adds a few vegetables to Minecraft",
 	"authors": [
-		"Me!"
+		"SuperiorTabby!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -37,8 +37,6 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
+
 }
