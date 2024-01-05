@@ -10,8 +10,26 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "tabbys-vegetables:turnip_food"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "tabbys-vegetables:turnip_crop",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "name": "tabbys-vegetables:turnip_food"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tabbys-vegetables:turnip_seeds"
+            }
+          ]
         }
       ],
       "rolls": 1.0
@@ -41,36 +59,11 @@
               }
             }
           ],
-          "name": "tabbys-vegetables:turnip_food"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "block": "tabbys-vegetables:turnip_crop",
-          "condition": "minecraft:block_state_property",
-          "properties": {
-            "age": "7"
-          }
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "conditions": [
-            {
-              "chance": 0.2,
-              "condition": "minecraft:random_chance"
-            }
-          ],
           "name": "tabbys-vegetables:turnip_seeds"
         }
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "tabbys-vegetables:blocks/turnip_crop"
+  ]
+
 }
