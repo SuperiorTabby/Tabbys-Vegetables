@@ -1,4 +1,8 @@
 {
 "item.tabbys-vegetables.turnip_seeds": "Turnip Seeds",
-  "item.tabbys-vegetables.turnip_food": "Turnip"
+  "item.tabbys-vegetables.turnip_food": "Turnip",
+  "item.tabbys-vegetables.onion_seeds": "Onion Seeds",
+  "item.tabbys-vegetables.onion_food": "Onion",
+  "item.tabbys-vegetables.cut_onion": "Sliced Onion",
+  "block.tabbys-vegetables.cutting_board_block": "Cutting Board"
 }

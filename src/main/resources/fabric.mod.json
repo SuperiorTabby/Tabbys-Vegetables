@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/SuperiorTabby/Tabbys-Vegetables"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tabbys-vegetables/icon.png",
 	"environment": "*",
 	"entrypoints": {
